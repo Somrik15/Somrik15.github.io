@@ -346,3 +346,60 @@ footer {
     }
 
 }
+
+
+/* Hero Section Layout */
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero-text {
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+}
+
+/* Profile Photograph */
+
+.hero-photo {
+    flex-shrink: 0;
+}
+
+.hero-photo img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    border: 3px solid #e5e7eb;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
+    display: block;
+}
+
+/* Mobile Responsive Layout */
+
+@media (max-width: 768px) {
+
+    .hero-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 25px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-photo img {
+        width: 170px;
+        height: 170px;
+    }
+
+}
+
