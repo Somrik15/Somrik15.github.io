@@ -373,8 +373,8 @@ footer {
 }
 
 .hero-photo img {
-    width: 300px;
-    height: 380px;
+    width: 400px;
+    height: 480px;
     object-fit: cover;
     object-position: center;
     border-radius: 8px;
@@ -398,8 +398,8 @@ footer {
     }
 
     .hero-photo img {
-        width: 260px;
-        height: 330px;
+        width: 360px;
+        height: 420px;
     }
 
 }
